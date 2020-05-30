@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ycyang.touch.MainActivity">
+
+
+    <!--    <com.ycyang.touch.ScalableImageView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+    <!--    <com.ycyang.touch.MutilTouchView1-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"/>-->
+    <!--    <com.ycyang.touch.ViewPager-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent">-->
+    <!--        <View-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:background="#673AB7"/>-->
+    <!--        <View-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:background="#3F51B5"/>-->
+    <!--    </com.ycyang.touch.ViewPager>-->
+<!--    <com.ycyang.drag.DragListenerGroup-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+
+<!--        <View-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="#8BC34A" />-->
+
+<!--        <View-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="#FFEB3B" />-->
+
+<!--        <View-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="#FF9800" />-->
+
+<!--        <View-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="#FF5722" />-->
+
+<!--        <View-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="#F44336" />-->
+
+<!--        <View-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="#E91E63" />-->
+
+<!--        <View-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="#9C27B0" />-->
+
+<!--        <View-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="#3F51B5" />-->
+
+<!--        <View-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="#2196F3" />-->
+
+<!--        <View-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="#03A9F4" />-->
+
+<!--        <View-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="#00BCD4" />-->
+
+<!--        <View-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="#009688" />-->
+<!--    </com.ycyang.drag.DragListenerGroup>-->
+<!--    <com.ycyang.drag.DragToCollectLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"/>-->
+
+    <!--    <com.ycyang.text.MutilText-->
+    <!--        android:id="@+id/mutil"-->
+    <!--        android:layout_width="412dp"-->
+    <!--        android:layout_height="732dp"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        tools:layout_editor_absoluteY="-1dp" />-->
+
+    <!--    <androidx.constraintlayout.widget.Guideline-->
+    <!--        android:id="@+id/guideline"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:orientation="vertical"-->
+    <!--        app:layout_constraintGuide_end="329dp" />-->
+</RelativeLayout>
+
+    <!--    <com.ycyang.drawpractice.DashboardPractice-->
+    <!--        android:id="@+id/dashboardview"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+    <!--    <com.ycyang.text.SportView-->
+    <!--        android:id="@+id/sport"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"/>-->
+
+    <!--    <com.ycyang.camera.CameraView-->
+    <!--        android:id="@+id/camera"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+    <!--    <com.ycyang.animator.CircleView-->
+    <!--        android:id="@+id/cicle_animator"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+    <!--    <com.ycyang.animator.FlipView-->
+    <!--        android:id="@+id/flip"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+    <!--        <com.ycyang.animator.PointFView-->
+    <!--            android:id="@+id/point"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent"/>-->
+    <!--    <com.ycyang.animator.ProvinceView-->
+    <!--        android:id="@+id/province"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"/>-->
+    <!--    <com.ycyang.drawpractice.PotritView-->
+    <!--        android:id="@+id/potritview"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+    <!--    <FrameLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:background="#30ff0000">-->
+
+    <!--        <com.ycyang.animator.MaterialEditText-->
+    <!--            android:id="@+id/editext"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:hint="UserName"-->
+    <!--            android:textColor="#000000" />-->
+    <!--    </FrameLayout>-->
+    <!--    <com.ycyang.touch.SquareImageView-->
+    <!--        android:id="@+id/square"-->
+    <!--        android:layout_width="300dp"-->
+    <!--        android:layout_height="200dp"-->
+    <!--        android:scaleType="fitXY"-->
+    <!--        android:src="@drawable/vavtor" />-->
+
+    <!--    <ImageView-->
+    <!--        android:layout_width="200dp"-->
+    <!--        android:layout_height="300dp"-->
+    <!--        android:src="@color/colorAccent" />-->
+    <!--    <com.ycyang.animator.CircleView2-->
+    <!--        android:id="@+id/circle2"-->
+    <!--        android:layout_width="100dp"-->
+    <!--        android:layout_height="200dp"-->
+    <!--        android:background="@color/colorAccent"/>-->
+    <!--    <com.ycyang.animator.CircleView2-->
+    <!--        android:id="@+id/circle3"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:background="@color/colorAccent"/>-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"/>-->
+
+
+    <!--        <layout.ColoredTextView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="北京市" />-->
+
+    <!--        <layout.ColoredTextView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="天津市" />-->
+
+    <!--        <layout.ColoredTextView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="上海市" />-->
+
+    <!--        <layout.ColoredTextView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="重庆市" />-->
+
+    <!--        <layout.ColoredTextView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="河北省" />-->
+
+    <!--        <layout.ColoredTextView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="山西省" />-->
+
+    <!--        <layout.ColoredTextView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="辽宁省" />-->
+
+    <!--        <layout.ColoredTextView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="吉林省" />-->
+
+    <!--        <layout.ColoredTextView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="黑龙江省" />-->
+
+    <!--        <layout.ColoredTextView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="江苏省" />-->
+
+    <!--        <layout.ColoredTextView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="浙江省" />-->
+
+    <!--        <layout.ColoredTextView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="安徽省" />-->
+
+    <!--        <layout.ColoredTextView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="福建省" />-->
+
+    <!--        <layout.ColoredTextView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="江西省" />-->
+
+    <!--        <layout.ColoredTextView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="山东省" />-->
+
+    <!--        <layout.ColoredTextView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="河南省" />-->
+
+    <!--        <layout.ColoredTextView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="湖北省" />-->
+
+    <!--        <layout.ColoredTextView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="湖南省" />-->
+
+    <!--        <layout.ColoredTextView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="广东省" />-->
+
+    <!--        <layout.ColoredTextView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="海南省" />-->
+
+    <!--        <layout.ColoredTextView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="四川省" />-->
+
+    <!--        <layout.ColoredTextView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="贵州省" />-->
+
+    <!--        <layout.ColoredTextView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="云南省" />-->
+
+    <!--        <layout.ColoredTextView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="陕西省" />-->
+
+    <!--        <layout.ColoredTextView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="甘肃省" />-->
+
+    <!--        <layout.ColoredTextView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="青海省" />-->
+
+    <!--        <layout.ColoredTextView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="台湾省" />-->
+
+    <!--        <layout.ColoredTextView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="内蒙古自治区" />-->
+
+    <!--        <layout.ColoredTextView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="广西壮族自治区" />-->
+
+    <!--        <layout.ColoredTextView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="西藏自治区" />-->
+
+    <!--        <layout.ColoredTextView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="宁夏回族自治区" />-->
+
+    <!--        <layout.ColoredTextView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="新疆维吾尔自治区" />-->
+
+    <!--        <layout.ColoredTextView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="香港特别行政区" />-->
+
+    <!--        <layout.ColoredTextView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="澳门特别行政区" />-->
+
+    <!--    </layout.TagLayout>-->
